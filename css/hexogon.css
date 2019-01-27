@@ -140,3 +140,23 @@
 #fork:hover:before {
   transform: translateX(0) skewX(-45deg);
 }
+.owl-carousel {
+      position:relative;
+    }
+
+    .owl-prev, .owl-next {
+        position:absolute;
+     }
+
+    .owl-prev {
+        left:0;
+        top: 200px;
+        margin-left: -25px;
+    margin-right: -25px;
+     }
+
+     .owl-next {
+        right:0;
+        top:200px;
+        margin-right: -25px;
+     }
