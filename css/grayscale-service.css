@@ -3,7 +3,9 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
+body{
+  background-color: #f0f0f3;
+}
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -102,7 +104,7 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
+  font-size: 2.5em;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -178,6 +180,7 @@
 
 .projects-section {
   /* padding: 10rem 0; */
+  
 }
 
 .projects-section .featured-text {
@@ -209,7 +212,7 @@
 
 .signup-section {
   /* padding: 10rem 0; */
-  background-color: #424242;
+  /* background-color: #424242; */
   /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
@@ -219,6 +222,40 @@
 }
 
 .signup-section .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+.tech-service {
+  /* padding: 10rem 0; */
+  /* background-color: #424242; */
+   /* background:url("../img/service-section-grey-stripe.png");
+  background: url("../img/service-section-grey-stripe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: scroll; 
+   background-size: cover;   */
+}
+
+@media (min-width: 992px) {
+  .tech-content{
+    top: 55%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tech-content{
+    top: 33%;
+  }
+}
+
+.tech-service .form-inline input {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;

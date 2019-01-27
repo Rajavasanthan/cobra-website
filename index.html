@@ -21,19 +21,6 @@
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-
-  <style>
-    .triangle-left {
-      /* width: 0; */
-      /* height: 0; */
-      border-top: 3em solid transparent;
-      border-right: 43em solid #f9ccb4;
-      border-bottom: 10em solid transparent;
-    }
-  </style>
-
-
 
 </head>
 
@@ -43,7 +30,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="./img/CobraLogo-Home-button.png" width="150">
+        <img src="./img/CobraLogo-Home-button.png" class="img-fluid" width="35%">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,225 +40,153 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="about">What</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="projects">Who</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="signup">Why</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="signup">Where</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-
   <!-- Header -->
-  <header class="masthead d-none d-md-block">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-          <!-- <span class="mx-auto my-0 text-uppercase element-animation2 opt">Optimization</span> <br> 
-          <span class="mx-auto my-0 text-uppercase element-animation trans">Transparency</span> 
-          <span class="mx-auto my-0 text-uppercase element-animation partner">& Partnership</span>   -->
-        <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2> -->
-        <!-- <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a> -->
-      </div>
-    </div>
+  <header class="masthead">
+    <!-- <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        </div>
+      </div> -->
+    <img class=".d-none .d-sm-block img-fluid" style="position: absolute;width: 10%;margin-top: 15%;margin-left: 6%;" src="./img/CobraLS-Logo-C-orng.png">
+    <img class="img-fluid" style="width: 100%;" src="./img/HomePage_Header-animation.gif">
   </header>
-
-  <header class="d-block d-md-none text-center" style="padding-top: 79px;">
-    <div class="jumbotron jumbotron-fluid" style="background-color: #414242;">
-      <div class="container">
-        <h1 class="display-4" style="color:#d06228">Optimization</h1>
-        <h1 class="display-4"  style="color:#d06228">Transparency</h1>
-        <h1 class="display-4"  style="color:#d06228">Partnership</h1>
-      </div>
-    </div>
-  </header>
-
-  <nav id="cd-vertical-nav">
-    <ul style="list-style-type:none;">
-      <!-- <li>
-				<a href="#section1" data-number="1">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Intro</span>
-				</a>
-			</li> -->
-      <li>
-        <a href="#about" class="js-scroll-trigger" data-number="1">
-					<span class="cd-dot"></span>
-					<span class="cd-label">About</span>
-				</a>
-      </li>
-      <li>
-        <a href="#projects" class="js-scroll-trigger" data-number="2">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Features</span>
-				</a>
-      </li>
-      <li>
-        <a href="#signup" class="js-scroll-trigger" data-number="3">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Portfolio</span>
-				</a>
-      </li>
-    </ul>
-  </nav>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center cd-section">
-    <div class="container-fluid">
+  <section id="about" class="about-section text-center">
+    <div class="container-fluid" style="padding:0">
       <img src="img/HomePage-video_placeholder-pic.jpg" class="img-fluid" alt="">
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light cd-section" style="position: relative;z-index: -1">
-    <div class="container-fluid" style="padding: 0;">
+  <section id="projects" class="projects-section bg-light">
+    <img class="img-fluid" src="./img/home-triangle-left.png">
+    <div class="container">
+      <h2>Improving the efficiency of</h2>
+      <h1>Heading</h1>
+      <p>// Cobra is a diverse team of talented, like-minded professionals who come together with one common goal: to improve
+        the efficiency of legal support services.</p>
+      <p>Driving innovation, quality and efficiency, Cobra's award-winning technology and services equip clients with the tools
+        they need to continually improve their practice.</p>
+      <p>From eDiscovery and managed review to M&A due diligence and making your contracts process simple, Cobra provides value-based
+        results at the lowest cost possible.</p>
 
-      <div class="triangle-left d-none d-md-block" style="right: 0;top: -209px;position: relative;"></div>
-      <div class="container" style="margin-top: -156px;">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>Improving the efficiency of</h2>
-            <h1>LEGAL SUPPORT SERVICES</h1>
-            <p>// Cobra is a diverse team of talented, like-minded professionals who come together with one common goal: to
-              improve the efficiency of legal support services.</p>
-            <p>Driving innovation, quality and efficiency, Cobra's award-winning technology and services equip clients with
-              the tools they need to continually improve their practice.</p>
-            <p>From eDiscovery and managed review to M&A due diligence and making your contracts process simple, Cobra provides
-              value-based results at the lowest cost possible.</p>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="container-fluid" style="padding: 0;">
-      <img class="img-fluid" src="./img/HomePage-services-Background_pic1.png" alt="">
-    </div>
-
+    <img src="./img/conference.png" class="img-fluid">
   </section>
 
   <!-- Signup Section -->
-  <section id="signup" class="signup-section signup-section-top signup-section-bottom cd-section">
-    <div class="container-fluid">
-      <div class="row" style="margin-top: 150px;">
-        <div class="col-md-10 col-lg-8 mx-auto text-left" style="margin-bottom: 118px;">
+  <section id="signup" class="signup-section">
+    <img src="./img/contact-us-above.png" class="img-fluid" style="width: 100%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-          <h1>Contact</h1>
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
 
-          <form action="/action_page.php">
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-            </div>
-            <div class="form-group form-check">
-              <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-      </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
           </form>
 
         </div>
-
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-xs-3">
-              <h1>Image</h1>
-            </div>
-            <div class="col-xs-3">
-              <h1>Image</h1>
-            </div>
-            <div class="col-xs-3">
-              <h1>Image</h1>
-            </div>
-            <div class="col-xs-3">
-              <h1>Image</h1>
-            </div>
-          </div>
-        </div>
-
       </div>
-
-
-
-
     </div>
+
+    <div style="position: relative; z-index: 1;text-align: center;">
+      <img src="./img/contact-us-below.png" class="img-fluid" style="width: 100%;">
+      <div class="container-fluid" style="position: absolute; top: 67%; z-index: 3;">
+        <div class="row">
+          <div class="col-3 col-sm-3 col-xl-3">1</div>
+          <div class="col-3 col-sm-3 col-xl-3">2</div>
+          <div class="col-3 col-sm-3 col-xl-3">3</div>
+          <div class="col-3 col-sm-3 col-xl-3">4</div>
+        </div>
+      </div>
+    </div>
+
+
+
   </section>
 
   <!-- Contact Section -->
-  <section class="contact-section cd-section">
-    <div class="container">
+  <section class="contact-section">
+    <div class="container text-center">
 
       <div class="row">
 
         <div class="col-md-3 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
-          </div>
+          <ul>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+          </ul>
         </div>
 
         <div class="col-md-3 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
-              </div>
-            </div>
-          </div>
+          <ul>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+          </ul>
         </div>
 
         <div class="col-md-3 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
-          </div>
+          <ul>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+          </ul>
         </div>
-        
+
         <div class="col-md-3 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
-          </div>
+          <ul>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+            <li>One</li>
+          </ul>
         </div>
       </div>
 
       <div class="social d-flex justify-content-center">
-        <img src="http://placehold.it/500x100">
+        <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+        <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
       </div>
 
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="small text-center text-white-50" >
-    <div class="container" style="color:black;">
-      Copyright &copy; Your Website 2018
-    </div>
-  </footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -282,31 +197,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
-  <script src="js/modernizr.js"></script>
-  <!-- Modernizr -->
-  <script>
-    jQuery(document).ready(function ($) {
-      var contentSections = $('.cd-section'),
-        navigationItems = $('#cd-vertical-nav a');
-      console.log(contentSections);
-      console.log(navigationItems);
-      updateNavigation();
-      $(window).on('scroll', function () {
-        updateNavigation();
-      });
-      function updateNavigation() {
-        contentSections.each(function () {
-          $this = $(this);
-          var activeSection = $('#cd-vertical-nav a[href="#' + $this.attr('id') + '"]').data('number') - 1;
-          if (($this.offset().top - $(window).height() / 2 < $(window).scrollTop()) && ($this.offset().top + $this.height() - $(window).height() / 2 > $(window).scrollTop())) {
-            navigationItems.eq(activeSection).addClass('is-selected');
-          } else {
-            navigationItems.eq(activeSection).removeClass('is-selected');
-          }
-        });
-      }
-    });
-  </script>
+
 </body>
 
 </html>
