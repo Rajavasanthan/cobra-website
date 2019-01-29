@@ -1,0 +1,545 @@
+@charset "utf-8";
+
+@font-face
+{
+	font-family:'DIN_Pro_Condensed_Regular';
+	src:url('../fonts/DIN_Pro_Condensed_Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DIN_Pro_Condensed_Regular.woff') format('woff'),url('../fonts/DIN_Pro_Condensed_Regular.ttf') format('truetype'),
+	url('../fonts/DIN_Pro_Condensed_Regular.svg#Roboto-Bold') format('svg');font-weight:normal;font-style:normal
+}
+@font-face 
+{
+	font-family:'DIN Pro Bold';
+	src:url('../fonts/DIN Pro Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DIN Pro Bold.woff') format('woff'),url('../fonts/DIN Pro Bold.ttf') format('truetype'),
+	url('../fonts/DIN Pro Bold.svg#Roboto-Bold') format('svg');font-weight:normal;font-style:normal
+}
+@font-face
+{
+	font-family:'DIN_Pro_Condensed_Italic';
+	src:url('../fonts/DIN Pro Condensed Italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DIN Pro Condensed Italic.woff') format('woff'),url('../fonts/DIN Pro Condensed Italic.ttf') format('truetype'),
+	url('../fonts/DIN Pro Condensed Italic.svg#Roboto-Bold') format('svg');font-weight:normal;font-style:normal
+}
+@font-face
+{
+	font-family:'DIN_Pro_Light';
+	src:url('../fonts/DIN Pro Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DIN Pro Light.woff') format('woff'),url('../fonts/DIN Pro Light.ttf') format('truetype'),
+	url('../fonts/DIN Pro Light.svg#Roboto-Bold') format('svg');font-weight:normal;font-style:normal
+}
+@font-face
+{
+	font-family:'DINPro-Regular';
+	src:url('../fonts/DINPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DINPro-Regular.woff') format('woff'),url('../fonts/DINPro-Regular.ttf') format('truetype'),
+	url('../fonts/DINPro-Regular.svg#Roboto-Bold') format('svg');font-weight:normal;font-style:normal
+}
+
+.heading h1{
+    font-family: DIN_Pro_Condensed_Italic;
+    font-size:4.58vw;
+	letter-spacing:5px;
+	text-transform:uppercase;
+	margin-bottom:3rem;
+}
+
+.subheading h3{
+    font-family: 'DIN Pro Bold';
+    font-size:2.08vw; 
+	margin-bottom:1rem;
+}
+
+.pcontent p
+{
+    font-family: 'DINPro-Regular';
+    font-size:1.15vw;
+}
+
+.header{
+  font-size: 1.56vw;
+  font-family: 'DIN_Pro_Condensed_Regular';
+}
+
+#navbarResponsive ul li{
+	font-size: 1.56vw;
+  font-family: 'DIN_Pro_Condensed_Regular';
+  text-transform:uppercase;
+  color:#ed6924;
+}
+
+#mainNav .nav-link {
+	 color:#ed6924;
+	 padding: 2rem 2.5rem;
+	 font-family: 'DIN_Pro_Condensed_Regular';
+}
+#mainNav .nav-link:hover {
+    color:#ed6924;
+}
+#mainNav.navbar-shrink .nav-link {
+    color: #ed6924;
+    padding: 1.5rem 2.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+}
+#mainNav.navbar-shrink .nav-link:hover {
+     color: #ed6924;
+}
+
+.footercontent ul li{
+	list-style: none;
+	text-align:left;
+	padding: 5px;
+}
+
+.footercontent ul li a{
+     font-size: 1.56vw;
+     font-family: 'DIN_Pro_Condensed_Regular';
+     color: #ed6924;   
+	 list-style: none;
+	 text-transform:uppercase;
+	text-align:left;
+	font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footercontent a:hover {
+    color: #584949;
+}
+
+.social-icons
+{
+	width:80%;
+	max-width:80%;
+	margin:auto;	
+	
+}
+
+.social-icons a img:hover{
+	transition: .5s ease;
+    transform: scale(1.15,1.15);
+}
+#Relativity
+{
+	margin: 30% 10%;
+}
+.social-icons a img
+{
+margin-left: 10vw;
+}
+.explore img
+{
+	width: 12%;
+    margin-top: 50px;
+}
+#Bureau
+{
+	margin: 30% 10%;
+}
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+    opacity: 0.75;
+}
+.footercontent ul{
+	padding-inline-start: 0px;
+}
+
+
+
+
+  .signup-section {    
+    background-color: #ed6924 !important;
+}
+
+div.aboutcandice {
+    display: flex;
+    overflow: hidden;
+}
+.aboutcandice img{
+	margin-top:8px;
+}
+.subheading a{
+	color:#ed6924;	
+	font-family: 'DINPro-Regular';
+    font-size: 1.15vw;
+}
+
+
+
+/* iphoneX Code Starts Here */
+@media (max-width: 499px)
+{
+	.subheading h3 {
+    font-size: 5.2vw;
+	    margin-bottom: 1rem;
+}
+.heading h1 {
+    font-size: 8.4vw;
+	margin-bottom: 2rem;
+}
+.pcontent p {
+    font-size: 3.5vw;
+}
+.contact-menu input {
+    font-size: 5vw;
+	padding: 2rem .5rem;
+    margin-bottom: 1rem;
+}
+.contact-menu textarea {
+   font-size: 5vw;
+}
+.submit-btn img{
+	width:25%;
+}
+.social-icons a img {
+     margin-left: 5vw; 
+    width: 10%;
+}
+#Bureau {   
+    width: 64%;
+	margin-top: 41px;
+}
+#Relativity
+{
+	    margin-top: 16px;
+	width: 64%;
+}
+.footercontent ul{
+	margin-right:40px;
+}
+.footercontent ul li a {
+    font-size: 5.56vw;
+}
+.footercontent ul li {    
+    text-align: center;    
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-section {
+    padding: 1rem 0 0;
+}
+#ukas
+{
+	    width: 50%;
+    margin-top: -50px;
+
+}
+.Where_explore img
+{
+	width: 25%;
+    
+}
+
+.chosen-container .chosen-results li {    
+    font-size: 5.08vw !important;
+    
+}
+.contact-section .social {
+     margin-top: 0rem; 
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {   
+    font-size: 5.56vw;
+}
+.chosen-container .chosen-results li {
+    padding: 15px 10px !important;
+	
+}
+.chosen-container .chosen-drop {
+    height: 325px;
+	opacity:1 !important;
+}
+.chosen-container .chosen-results {
+    max-height: 325px !important;
+}
+.chosen-container {
+margin-bottom:2rem;
+}
+.chosen-container-multi .chosen-choices li.search-choice span {    
+    font-size: 5.56vw;
+}
+#signup img
+{
+	       margin-top: -2%;
+    margin-bottom: -1%;
+}
+.masthead {
+margin-top:75px;
+}
+#mainNav {    
+    background-color: #e3e3e3;;
+	opacity:0.75;
+}
+#mainNav .navbar-brand {
+    width: 85%;
+}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #ed6924;
+    border: 0px;
+}
+#navbarResponsive ul li a
+{
+	color:#ed6924 !important;
+	text-align:right;
+	font-size: 5vw;
+    padding: 1rem 0.5rem !important;
+	font-family: 'DIN_Pro_Condensed_Italic' !important;
+
+}
+#navbarResponsive ul li a:hover{
+	background:#414242 !important;
+background-image:none !important;
+opacity:0.7 !important;
+}
+div.aboutcandice {
+    display: block;
+    overflow: hidden;
+}
+.subheading a {
+    font-size: 3.5vw;
+}
+}
+/* iphoneX code Ends Here */
+
+/* ipad code Starts Here */
+@media (max-width: 800px) and (min-width: 657px)
+{
+	.subheading h3 {
+    font-family: 'DIN Pro Bold';
+    font-size: 3.82vw;
+}
+	.heading h1 {
+    font-family: DIN_Pro_Condensed_Italic;
+    font-size: 6.58vw;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.pcontent p {
+    font-family: 'DINPro-Regular';
+    font-size: 2.15vw;
+} 
+.masthead {
+margin-top:79px;
+}
+#mainNav {    
+    background-color: #e3e3e3;;
+	opacity:0.75;
+}
+#mainNav .navbar-brand {
+    width: 85%;
+}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #ed6924;
+    border: 0px;
+}
+#navbarResponsive ul li a
+{
+	color:#ed6924 !important;
+	text-align:right;
+	font-size: 5vw;
+    padding: 1rem 0.5rem !important;
+	font-family: 'DIN_Pro_Condensed_Italic' !important;
+
+}
+#navbarResponsive ul li a:hover{
+	background:#414242 !important;
+background-image:none !important;
+opacity:0.7 !important;
+}
+.Where_explore img {
+    width: 15%;     
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.chosen-container .chosen-results li {    
+    font-size: 3vw !important;
+    
+}
+.contact-section .social {
+     margin-top: 0rem; 
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {   
+    font-size: 3vw;
+}
+.chosen-container-multi .chosen-choices li.search-choice span {    
+    font-size: 3vw;    
+}
+.chosen-container .chosen-results li {
+    padding: 15px 10px !important;
+	
+}
+.chosen-container .chosen-drop {
+    height: 325px;
+	opacity:1 !important;
+}
+.chosen-container .chosen-results {
+    max-height: 325px !important;
+}
+.chosen-container {
+margin-bottom:2rem;
+}
+.contact-menu input {
+    font-size: 3vw;
+	padding: 2rem .5rem;
+    margin-bottom: 1rem;
+}
+.contact-menu textarea {
+   font-size: 3vw;
+}
+.social-icons a img {
+     margin-left: 10vw; 
+    width: 10%;
+}
+#Bureau {   
+   
+	margin-top: 41px;
+}
+#Relativity
+{
+	    margin-top: 41px;
+	
+}
+.footercontent ul{
+	margin-right:40px;
+	padding-inline-start: 0px;
+}
+.footercontent ul li a {
+    font-size: 2.6vw;
+}
+.footercontent ul li {    
+    text-align: center;    
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-section {
+    padding: 1rem 0 0;
+}
+#ukas
+{
+	 
+    margin-top: 0px;
+
+}
+.chosen-container {
+    width: 100% !important;
+}
+.footercontent ul{
+	margin-right:0px;
+	padding-inline-start: 0px;
+}
+
+#signup img
+{
+	       margin-top: -2%;
+    margin-bottom: -1%;
+}
+#projects img{
+	margin-bottom:-1%;
+}
+
+.subheading a {
+    font-size: 2.5vw;
+}
+}
+/* ipad code Ends Here */
+
+/* ipadpro code starts here */
+@media (max-width: 1279px) and (min-width: 992px){
+	.subheading h3 {
+    font-size: 3.5vw;
+}
+.heading h1 {
+    font-size: 6vw;
+}
+.pcontent p {
+    font-size: 2vw;
+}
+.explore img {
+    width: 15%;
+    margin-top: 25px;
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-menu input ,.contact-menu textarea{
+    font-size: 2.72vw;
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {
+	 font-size: 2.72vw;
+}
+	.chosen-container {
+    width: 85% !important;
+}
+
+.footercontent ul li a{
+    font-size: 2.56vw;
+    
+}
+.Where_explore img {
+    width: 15%;
+}
+#signup img
+{
+	       margin-top: -2%;
+    margin-bottom: -1%;
+}
+#projects img{
+	margin-bottom:-1%;
+}
+.subheading a {
+    font-size: 2vw;
+}
+}
+/* ipadpro code ends here */
+
+/* karthik anna Resolutions Strats Here */
+
+@media (max-width: 1366px) and (min-width: 1280px)
+{
+	.submit-btn img{
+    width:12%;
+}
+#signup img
+{
+	       margin-top: -2%;
+    margin-bottom: -1%;
+}
+#projects img{
+	margin-bottom:-1%;
+}
+#Test1{
+   display: block;
+    margin-left: 0px;
+    margin-top:25px;
+}
+#countries {   
+    word-spacing: 10px;
+   
+}
+}
+/* karthik anna Resolutions Strats Here */
+
+/* Dev Sir Resolutions Starts Here */
+@media (max-width: 1599px) and (min-width: 1367px)
+{
+	.submit-btn img{
+    width:12%;
+}
+#signup img
+{
+	       margin-top: -2%;
+    margin-bottom: -1%;
+}
+#projects img{
+	margin-bottom:-1%;
+}
+	
+}
+
+/* DEv Sit Resolutions Ends Here */

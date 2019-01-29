@@ -1,0 +1,354 @@
+﻿    
+
+    .contact-menu input {
+        background-color: inherit !important;
+        background-image: none;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: 2px solid #f9cdb6;
+        color: #ffffff !important;
+        line-height: 3rem;
+        outline: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 3rem .5rem;
+        margin-bottom: 3rem;
+        font-family: 'DIN_Pro_Condensed_Regular';
+        font-size: 1.72vw;
+    }
+
+    .contact-menu textarea {
+        background-color: inherit !important;
+        background-image: none;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: 2px solid #f9cdb6;
+        color: #ffffff !important;
+        line-height: 1.5rem;
+        outline: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: .2rem .5rem;
+        margin-bottom: 3rem;
+        font-family: 'DIN_Pro_Condensed_Regular';
+        font-size: 1.72vw;
+    }
+
+    .form-control:focus {
+        border-color: #f9cdb6;
+    }
+
+    .chosen-container-multi .chosen-choices {
+        border: 2px solid #f9cdb6;
+        border-top: none !important;
+        border-left: transparent;
+        border-right: transparent;
+        background-color: inherit !important;
+        background-image: none !important;
+        background-image: none;
+        cursor: text;
+        padding: 15px 5px;
+    }
+
+    .chosen-container .chosen-drop {
+        font-family: 'DIN_Pro_Condensed_Regular';
+        height: 530px;
+        text-align: right;
+        background: #f07f45 !important;
+        opacity: 0.8 !important;
+    }
+
+    .chosen-container .chosen-results {
+        color: #ed6927 !important;
+        max-height: 533px !important;
+    }
+
+    .chosen-container-multi .chosen-drop .result-selected {
+        font-weight: bold;
+        color: black !important;
+    }
+
+    .chosen-container .chosen-results li.highlighted {
+        background: #f07f45 !important;
+        background-image: none !important;
+        opacity: 0.7 !important;
+    }
+
+    .chosen-container .chosen-results li {
+        color: #424242 !important;
+        font-family: 'DIN_Pro_Condensed_Italic';
+        text-transform: uppercase;
+        padding: 30px 15px !important;
+        font-size: 2.08vw !important;
+        border: 1px solid #f9cdb6;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .chosen-container-multi .chosen-choices li.search-choice {
+        background-image: none !important;
+        background-color: #ed6924 !important;
+        padding: 10px 25px 10px 10px !important;
+        border-radius: 0px;
+        border: 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+        color: #f9cdb6 !important;
+        font-size: 1.56vw;
+        font-family: 'DIN_Pro_Condensed_Regular';
+        text-transform: uppercase;
+    }
+
+    .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+        top: 18px;
+        background: url(../img/chosen-sprite.png) -42px 1px no-repeat !important;
+        transform: scale(1.5,1.5);
+    }
+
+    .chosen-container-multi .chosen-choices li.search-choice span {
+        color: #ffffff !important;
+        font-size: 1.56vw;
+        font-family: 'DIN_Pro_Condensed_Regular';
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .chosen-container {
+        width: 75% !important;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        text-transform: uppercase;
+        color: #f9cdb6;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #f9cdb6 !important;
+        text-transform: uppercase;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #f9cdb6 !important;
+        text-transform: uppercase;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #f9cdb6 !important;
+        text-transform: uppercase;
+    }
+
+    ::data-placeholder {
+        color: #f9cdb6 !important;
+        text-transform: uppercase;
+    }
+
+    .submit-btn {
+        
+    }
+
+    .social-icons {
+        width: 80%;
+        max-width: 80%;
+        margin: auto;
+    }
+
+        .social-icons a img:hover {
+            transition: .5s ease;
+            transform: scale(1.15,1.15);
+        }
+
+    #Relativity {
+        margin: 30% 10%;
+    }
+
+    .social-icons a img {
+        margin-left: 10vw;
+    }
+
+    .explore img {
+        width: 12%;
+        margin-top: 50px;
+    }
+
+    #Bureau {
+        margin: 30% 10%;
+    }
+
+    .signup-section {
+        background-color: #ed6924 !important;
+    }
+
+    
+	
+/* iphoneX Code Starts Here */
+@media (max-width: 499px)
+{	
+.contact-menu input {
+    font-size: 5vw;
+	padding: 2rem .5rem;
+    margin-bottom: 1rem;
+}
+.contact-menu textarea {
+   font-size: 5vw;
+}
+.submit-btn img{
+	width:30%;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-section {
+    padding: 1rem 0 0;
+}
+
+
+.chosen-container .chosen-results li {    
+    font-size: 5.08vw !important;
+    
+}
+.contact-section .social {
+     margin-top: 0rem; 
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {   
+    font-size: 5.56vw;
+}
+.chosen-container .chosen-results li {
+    padding: 15px 10px !important;
+	
+}
+.chosen-container .chosen-drop {
+    height: 325px;
+	opacity:1 !important;
+}
+.chosen-container .chosen-results {
+    max-height: 325px !important;
+}
+.chosen-container {
+margin-bottom:2rem;
+}
+.chosen-container-multi .chosen-choices li.search-choice span {    
+    font-size: 5.56vw;
+}
+
+}
+/* iphoneX code Ends Here */
+
+/* ipad code Starts Here */
+@media (max-width: 800px) and (min-width: 657px)
+{
+	
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.chosen-container .chosen-results li {    
+    font-size: 3vw !important;
+    
+}
+.contact-section .social {
+     margin-top: 0rem; 
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {   
+    font-size: 3vw;
+}
+.chosen-container-multi .chosen-choices li.search-choice span {    
+    font-size: 3vw;    
+}
+.chosen-container .chosen-results li {
+    padding: 15px 10px !important;
+	
+}
+.chosen-container .chosen-drop {
+    height: 325px;
+	opacity:1 !important;
+}
+.chosen-container .chosen-results {
+    max-height: 325px !important;
+}
+.chosen-container {
+margin-bottom:2rem;
+}
+.contact-menu input {
+    font-size: 3vw;
+	padding: 2rem .5rem;
+    margin-bottom: 1rem;
+}
+.contact-menu textarea {
+   font-size: 3vw;
+}
+.submit-btn img{
+	width: 20%;
+
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-section {
+    padding: 1rem 0 0;
+}
+.chosen-container {
+    width: 100% !important;
+}
+
+}
+/* ipad code Ends Here */
+
+/* ipadpro code starts here */
+@media (max-width: 1279px) and (min-width: 992px){
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+.contact-menu input ,.contact-menu textarea{
+    font-size: 2.72vw;
+}
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {
+	 font-size: 2.72vw;
+}
+	.chosen-container {
+    width: 85% !important;
+}
+.submit-btn img{
+	    width: 20%;
+    
+}
+.chosen-container .chosen-results li {   
+    padding: 15px 15px !important;
+    font-size: 2.08vw !important;    
+}
+
+.chosen-container .chosen-results {
+    max-height: 325px !important;
+}
+.chosen-container .chosen-drop {
+    height: 325px;
+}
+}
+/* ipadpro code ends here */
+
+/* karthik anna Resolutions Strats Here */
+
+@media (max-width: 1366px) and (min-width: 1280px)
+{
+	.submit-btn img{
+    width:12%;
+}
+}
+/* karthik anna Resolutions Strats Here */
+
+/* Dev Sir Resolutions Starts Here */
+@media (max-width: 1599px) and (min-width: 1367px)
+{
+	.submit-btn img{
+    width:12%;
+}
+	
+}
+
+/* DEv Sit Resolutions Ends Here */	

@@ -1,351 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Grayscale - Start Bootstrap Theme</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/chosen.min.css" rel="stylesheet" />
+    <link href="css/common-style.css" rel="stylesheet" />
+    <link href="css/contactorange.css" rel="stylesheet" />
+    <style>
+        .subtittle h1 {
+            font-family: 'DIN Pro Bold';
+            font-size: 2.86vw;
+        }
+        /* iphoneX Code Starts Here */
+        @media (max-width: 499px) {
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+            .subheading h3 {
+                font-size: 5.2vw;
+                margin-bottom: 1rem;
+            }
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+            .heading h1 {
+                font-size: 8.4vw;
+                margin-bottom: 2rem;
+            }
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            .subtittle h1 {
+                padding-top: 10%;
+                font-family: 'DIN Pro Bold';
+                font-size: 4.58vw !important;
+            }
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet">
+                .subtittle h1 sub img {
+                    width: 50%;
+                    margin-left: 160px;
+                }
 
-  <!-- Custom styles for this template -->
-  <link href="css/grayscale.css" rel="stylesheet">
-<style>
-input[type=text] {
-     border: 0;
-    background-color: transparent;
-    color: #fff;
-    line-height: 3rem;
-}
-.title{
-  font-size: 4rem !important;
-color: #ed6924 !important;
-font-family: 'DIN_Pro_Condensed_Italic' !important;
-padding-left: 0px;
-background-image: none;
-text-transform: uppercase;
--webkit-text-fill-color: #ed6924;
-letter-spacing: 5px;
-}
-.subtitle
-{
-  color: white;
-font-size: 40px;
-margin-bottom: 2rem;
-margin-top: 0rem;
-font-weight: bold;
-letter-spacing: 4px;
-font-family: DIN Pro Bold !important;
-}
-.top-list{
-  list-style-type: none;
-  list-style: none;}
-</style>
+            .pcontent p {
+                font-size: 3.5vw;
+            }
+
+            .cpcontent {
+                padding-top: 10%;
+                font-family: 'DINPro-Regular';
+                font-size: 3.5vw;
+            }
+        }
+        /* iphoneX Code End Here */
+
+        /* ipad code Starts Here */
+        @media (max-width: 800px) and (min-width: 657px) {
+
+            .subheading h3 {
+                font-family: 'DIN Pro Bold';
+                font-size: 3.82vw;
+            }
+
+            .heading h1 {
+                font-family: DIN_Pro_Condensed_Italic;
+                font-size: 6.58vw;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+            }
+
+            .pcontent p {
+                font-family: 'DINPro-Regular';
+                font-size: 2.15vw;
+            }
+
+            .cpcontent {
+                font-family: 'DINPro-Regular';
+                font-size: 2.15vw;
+            }
+
+            .headsubcontent h1 {
+                font-family: 'DIN Pro Bold' !important;
+                font-size: 5.86vw;
+                margin-left: -5px;
+                padding-top: 10%;
+            }
+        }
+        /* ipad code Ends Here */
+
+        /* ipadpro code starts here */
+        @media (max-width: 1279px) and (min-width: 992px) {
+            .subheading h3 {
+                font-size: 3.5vw;
+            }
+
+            .heading h1 {
+                font-size: 6vw;
+            }
+
+            .pcontent p {
+                font-size: 2.15vw;
+            }
+
+            .cpcontent {
+                font-family: 'DINPro-Regular';
+                font-size: 2.15vw;
+            }
+        }
+        /* ipadpro code ends here */
+    </style>
 </head>
-
 <body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container-fluid">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="./img/CobraLogo-Home-button.png" class="img-fluid" width="35%">
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="about">What</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="projects">Who</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="signup">Why</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="signup">Where</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <!-- <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
-        </div>
-      </div> -->
-      <img class=".d-none .d-sm-block img-fluid" style="position: absolute;width: 10%;margin-top: 15%;margin-left: 6%;" src="./img/CobraLS-Logo-C-orng.png">
-    <img class="img-fluid" style="width: 100%;" src="./img/myimg/CobraPulse-Header-graphic.png">
-  </header>
-
-  <!-- About Section -->
-
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section" style="background-color:#414242" >
-    
-    <div class="container" >
-      <div class="row" style="padding-top: 6%;padding-left: 0%;" >
-        <div class="col-lg-4"style="padding-left: 11%;">
-          <h1>
-              Full Transparency with
-               </h1>
-               <img class="img-fluid" src="img/myimg/cobra-pulse-logo.png">
-        </div>
-        <div class="col-lg-8" style="padding-left: 10%;">
-          <p>//  Have you ever wondered which teams have the best review efficiency or how your legal spend compares to fee structure or resource allocation?
-
-              CobraPulse® delivers real-time metrics in a centralized dashboard, 
-              giving clients full transparency into the productivity of every resource on their team for more strategically allocated human
-               capital hours and informed budget considerations.
-               Even the smallest legal department can regularly review the performance of individual attorneys and vendors as a whole.  </p>
-        </div>
-      </div>
-
-    </div>
-    <img style="margin-top: -1%; width: 100%;" src="./img/myimg/cob1.png" class="img-fluid">
-  </section>
-<!-- next section start -->
-
-<!-- 2 nd start -->
-
- <section id="projects" class="projects-section" style="background-color:#e6e7e8;" >
-    
-    <div class="container" >
-      <div class="row" style="padding-top: 6%;padding-left: 0%;" >
-        <div class="col-lg-12"style="padding-left: 11%;">
-          <h1>
-              Mobility
-               </h1>
-        </div>
-        <div class="col-lg-12" style="padding-left: 10%;">
-          <p>//Answers at your fingertips… even from your mobile device!    </p>
-        </div>
-      </div>
-
-    </div>
-    <img style="margin-top: -1%; width: 100%;" src="./img/myimg/cob2.png" class="img-fluid">
-  </section>
-<!--  2nd End -->
-
-<!-- 3 nd start -->
-
-<section id="projects" class="projects-section"  >
-    
-    <div class="container" >
-      <div class="row" style="padding-top: 6%;padding-left: 0%;" >
-        <div class="col-lg-12"style="padding-left: 11%;">
-          <h1>
-              Real-Time Metrics 
-               </h1>
-        </div>
-        <div class="col-lg-12" style="padding-left: 10%;">
-          <p>//Real-time insights into legal spend effectiveness and resource allocation.   </p>
-        </div>
-      </div>
-
-    </div>
-    <img style="margin-top: -1%; width: 100%;" src="./img/myimg/cob3.png" class="img-fluid">
-  </section>
-<!--  3nd End -->
-
-<!-- 4 nd start -->
-
-<section id="projects" class="projects-section" style="background-color:#e6e7e8;" >
-    
-    <div class="container" >
-      <div class="row" style="padding-top: 6%;padding-left: 0%;" >
-        <div class="col-lg-12"style="padding-left: 11%;">
-          <h1>
-              Multi-System Integration 
-               </h1>
-        </div>
-        <div class="col-lg-12" style="padding-left: 10%;">
-          <p>// Integrates with matter management and eBilling solutions.    </p>
-        </div>
-      </div>
-
-    </div>
-    <!-- <img style="margin-top: -1%; width: 100%;" src="./img/myimg/resource3.png" class="img-fluid"> -->
-  </section>
-<!--  4nd End -->
-
-
-
-
-
-
-
-
-  
-
-
-  
- 
-
- 
-
-<!-- Signup Section -->
-  <section id="signup" class="signup-section">
-    <img src="./img/contact-us-above.png" class="img-fluid" style="width: 100%;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
-          <!-- <h2 class="text-white mb-5">Subscribe to receive updates!</h2> -->
-
-          <form class="form-inline d-flex ">
-            <div class="row" style="background-color: transparent;">
-              <div class="col-lg-12">
-                  <h1 class="title mb-5">Contact Us</h1>
-              </div>
-              <div class="col-lg-12">
-                <h3 class="subtitle">We're here to help.</h3>
-              </div>
-           
-           
-            <div class="col-lg-6" style="background-color: transparent;">
-              <input class="form-control" type="text" name="name" placeholder="//Name">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="./img/CobraLogo-Home-button.png" class="img-fluid" width="35%">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto header">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about">WHAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="projects">WHO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="signup">WHY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="signup">WHERE</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-lg-6">
-                <input type="text" name="company" placeholder="//COmpany">
-              </div>
-              <div class="col-lg-6">
-                  <input type="text" name="email" placeholder="//Email">
-                </div>
-                <div class="col-lg-6">
-                    <input type="text" name="phone" placeholder="//Phone">
-                  </div>
-                  <div class="col-lg-6">
-                      <input type="text" name="services" placeholder="//Services">
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+        <!-- <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+              <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+              <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+              <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+            </div>
+          </div> -->
+        <img class=".d-none .d-sm-block img-fluid" style="position: absolute;width: 9%;margin-top: 19%;margin-left: 5%;" src="./img/CobraLS-Logo-C-orng.png">
+        <img class="img-fluid" style="width: 100%;" src="./img/CobraPulse-Header-Banner.png">
+    </header>
+    <!-- About Section -->
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section" style="background-color:#414242">
+
+        <div class="container-fluid" style="width:80%">
+            <div class="row" style="padding-top: 6%;padding-left: 0%;">
+                <div class="col-lg-5" style="padding-left: 5%;color:#ed6924">
+                    <div class="subtittle">
+                        <h1>
+                            Full Transparency with
+                            <sub>
+                                <img class="img-fluid" src="img/myimg/cobra-pulse-logo.png" alt="Cobrapulse">
+                            </sub>
+                        </h1>
                     </div>
-                    <div class="col-lg-6">
-                        <input type="text" name="message" placeholder="//Message">
-                      </div>
-                    
-                      <div class="col-lg-12">
-                        <input class="btn-primary" style="background-color: transparent !important;" type="button" value="button" name="button">
-                      </div>
-                   </div>
-            <!-- <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button> -->
-          </form>
+                </div>
+                <div class="col-lg-7" style="padding-left: 5%;color:#ffffff">
+                    <div class="cpcontent">
+                        <p>
+                            //  Have you ever wondered which teams have the best review efficiency or how your legal spend compares to fee structure or resource allocation?
+                        </p>
+
+                        <p>
+                            CobraPulse® delivers real-time metrics in a centralized dashboard,
+                            giving clients full transparency into the productivity of every resource on their team for more strategically allocated human
+                            capital hours and informed budget considerations.
+                            Even the smallest legal department can regularly review the performance of individual attorneys and vendors as a whole.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img style="margin-top: -1%; width: 100%;" src="./img/CobraPulse_BG12.png" class="img-fluid">
+    </section>
+    <!-- next section start -->
+    <!-- 2 nd start -->
+    <section id="projects" class="projects-section" style="background-color:#f0f0f3;">
+
+        <div class="container-fluid">
+            <div class="row" style="padding-top:2%; padding-bottom: 5%;margin-top: -1px;">
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="heading" style="color:#ed6924">
+                        <h1>
+                            MOBILITY
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="pcontent">
+                        <p>//Answers at your fingertips… even from your mobile device!    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img style="margin-top: -1%; width: 100%;" src="./img/CobraPulse_BG21.png" class="img-fluid">
+    </section>
+    <!--  2nd End -->
+    <!-- 3 nd start -->
+    <section id="projects" class="projects-section">
+
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 2%;padding-left: 0%; padding-bottom: 8%;">
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="heading" style="color:#ed6924">
+                        <h1>
+                            REAL-TIME METRICS
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="pcontent">
+                        <p>//Real-time insights into legal spend effectiveness and resource allocation.   </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img style="margin-top: -1%; width: 100%;" src="./img/CobraPulse_BG22.png" class="img-fluid">
+    </section>
+    <!--  3nd End -->
+    <!-- 4 nd start -->
+    <section id="projects" class="projects-section" style="background-color:#f0f0f3;">
+
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 0%;padding-left: 0%;">
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="heading" style="color:#ed6924">
+                        <h1>
+                            MULTI-SYSTEM INTEGRATION
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-left: 14%;">
+                    <div class="pcontent">
+                        <p>// Integrates with matter management and eBilling solutions.    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img style="margin-top: -1%; width: 100%;" src="./img/myimg/resource3.png" class="img-fluid"> -->
+    </section>
+    <!--  4nd End -->
+    <!-- Signup Section Start -->
+    <section id="signup" class="signup-section" style="background-color:#ed6924;">
+        <img src="./img/ContactUS_LightGray_BG_Top.png" class="img-fluid" style="width: 100%;margin-top: -3px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="heading" style="color:#424241 !important;">
+                        <h1>CONTACT US</h1>
+                    </div>
+                    <div class="subheading">
+                        <h3 class="text-white mb-5">We're here to help.</h3>
+                    </div>
+                    <!-- <form class="form-inline d-flex"> -->
+                    <!-- <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address..."> -->
+                    <!-- <button type="submit" class="btn btn-primary mx-auto">Subscribe</button> -->
+                    <form action="/action_page.php">
+                        <div class="form-group row contact-menu">
+                            <div class="col-md-5">
+
+                                <input type="text" class="form-control text-controls" id="Name" placeholder="// Name" name="Name">
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
+
+                                <input type="text" class="form-control text-controls" id="company" placeholder="// Company" name="company">
+                            </div>
+                        </div>
+
+                        <div class="form-group row contact-menu">
+                            <div class="col-md-5">
+
+                                <input type="email" class="form-control text-controls" id="email" placeholder="// Email" name="email">
+
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
+
+                                <input type="text" class="form-control text-controls" id="Phone" placeholder="// Phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group row contact-menu">
+                            <div class="col-md-5">
+
+                                <select data-placeholder="// SERVICES" multiple id="ServicesList" class="chosen-select form-control text-controls" name="services">
+                                    <option value=""></option>
+                                    <option>Cobrapulse <sub>&#174;</sub></option>
+                                    <option>Technology Services</option>
+                                    <option>eDiscovery</option>
+                                    <option>Document Review</option>
+                                    <option>Dedicated Resources</option>
+                                    <option>Legal Research</option>
+                                    <option>Contract Management</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5 texta">
+
+                                <textarea class="form-control text-controls" rows="5" id="message" placeholder="// Message" name="message"></textarea>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 submit-btn" style="text-align:center">
+                            <a href="#">
+                                <img src="img/Submit_Button_White.png" alt="Submit" class="img-fluid" />
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="position: relative; z-index: 1;text-align: center;">
+            <img src="./img/ContactUS_Gray_BG_Bottom.png" class="img-fluid" style="width: 100%;">
+            <!-- <div class="container-fluid text-center social-icons" style="position: absolute; top: 67%; z-index: 3;width:80%;max-width:80%;margin:auto;">
+              <div class="row">
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3">
+                 <a href="https://www.facebook.com/CobraLegalSolutions/" target="_blank">
+                          <img src="img/Facebook-button.png"  alt="Facebook Cobra Legal Solutions" title="Facebook Cobra Legal Solutions" /></a>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3">
+                 <a href="https://www.youtube.com/channel/UCd1A9rDYXG4xlVovqIqdv4A" target="_blank">
+                          <img src="img/YouTube-button.png"  alt="YouTube Cobra Legal Solutions" title="YouTube Cobra Legal Solutions" /></a>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3">
+                <a href="https://www.linkedin.com/company/cobra-legal-solutions" target="_blank">
+                          <img src="img/LinkedIn-button.png"  alt="YouTube Cobra Legal Solutions" title="YouTube Cobra Legal Solutions" /></a>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3">
+                <a href="https://twitter.com/cobrals" target="_blank">
+                          <img src="img/Twitter-button.png" alt="Twitter Cobra Legal Solutions" title="Twitter Cobra Legal Solutions" /></a>
+                </div>
+              </div>
+            </div>  -->
+
+            <div class="col-md-12" style="position: absolute; top: 67%; z-index: 3;">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/CobraLegalSolutions/" target="_blank">
+                        <img src="./img/Facebook-button.png" style="margin-left:0px;" alt="Facebook Cobra Legal Solutions" title="Facebook Cobra Legal Solutions">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCd1A9rDYXG4xlVovqIqdv4A" target="_blank">
+                        <img src="./img/YouTube-button.png" alt="YouTube Cobra Legal Solutions" title="YouTube Cobra Legal Solutions">
+                    </a>
+                    <a href="https://www.linkedin.com/company/cobra-legal-solutions" target="_blank">
+                        <img src="./img/LinkedIn-button.png" alt="Linkedin Cobra Legal Solutions" title="Linkedin Cobra Legal Solutions">
+                    </a>
+                    <a href="https://twitter.com/cobrals" target="_blank">
+                        <img src="./img/Twitter-button.png" alt="Twitter Cobra Legal Solutions" title="Twitter Cobra Legal Solutions">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container text-center">
+            <div class="row footercontent">
+                <div class="col-md-2 mb-2 mb-md-0">
+                    <ul>
+                        <li><a href="Why.html">ABOUT US</a></li>
+                        <li><a href="Who.html">our team</a></li>
+                        <li><a target="_blank" href="./pdf/Cobratx-ATX-DataCenter-Handout.pdf">facility</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-2 mb-md-0">
+                    <ul>
+                        <li><a href="Where.html">Contact</a></li>
+                        <li><a href="Blog.html">Blogs</a></li>
+                        <li><a href="News.html">News</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-2 mb-md-0">
+                    <ul>
+                        <li><a href="http://www.cobratx.com/" target="_blank">CobrATX</a></li>
+                        <li><a href="https://pulse.cobralegalsolutions.com/" target="_blank">Cobrapulse</a></li>
+                        <li><a href="https://survey.cobrals.com/" target="_blank">Legalintel</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-2 mb-md-0">
+
+                    <a href="https://www.relativity.com/partners/cobra-legal-solutions/" target="_blank"> <img src="img/badge-authpartner.png" id="Relativity" class="img-fluid" alt="Relativity" /></a>
+
+                </div>
+
+                <div class="col-md-2 mb-2 mb-md-0">
+
+                    <img src="img/ukas.jpg" alt="ukas" id="ukas" class="img-fluid" />
+
+                </div>
+
+                <div class="col-md-2 mb-2 mb-md-0">
+
+                    <img src="img/BV_Certification_27001_blk.png" id="Bureau" alt="Bureau" class="img-fluid" />
+
+                </div>
+
+
+            </div>
 
         </div>
-      </div>
-    </div>
-
-    <div style="position: relative; z-index: 1;text-align: center;">
-      <img src="./img/contact-us-below.png" class="img-fluid" style="width: 100%;">
-      <div class="container-fluid" style="position: absolute; top: 67%; z-index: 3;">
-        <div class="row">
-          <div class="col-xl-3"><img  src="img/myimg/Facebook-button.png" ></div>
-          <div class="col-xl-3"><img src="img/myimg/Twitter-button.png"></div>
-          <div class="col-xl-3"><img src="img/myimg/YouTube-button.png"></div>
-          <div class="col-xl-3"><img src="img/myimg/LinkedIn-button.png"></div>
-        </div>
-      </div>
-    </div>
-
-
-
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact-section">
-    <div class="container text-center">
-
-      <div class="row">
-
-        <div class="col-md-3 mb-3 mb-md-0">
-          <ul  class="top-list">
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">OUT TEAM</a></li>
-            <li><a href="#">FACILITY</a></li>
-            
-          </ul>
-        </div>
-
-        <div class="col-md-3 mb-3 mb-md-0">
-          <ul class="top-list">
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">BLOGS</a></li>
-            <li><a href="#">NEWS</a></li>
-           
-          </ul>
-        </div>
-
-        <div class="col-md-3 mb-3 mb-md-0">
-          <ul  class="top-list">
-            <li><a href="#">COBRATIX</a></li>
-            <li><a href="#">COBRAPLUSE</a></li>
-            <li><a href="#">LEGALINTEL</a></li>
-           
-          </ul>
-        </div>
-
-        <div class="col-md-3 mb-3 mb-md-0">
-          <ul  class="top-list">
-            <li><img class="img-fluid" src="img/myimg/div1.png"></li>
-            </ul>
-           <ul  class="top-list">
-            <li><img class="img-fluid" src="img/myimg/div2.png"></li>
-           </ul>
-           <ul  class="top-list">
-            <li><img class="img-fluid" src="img/myimg/div3.png"></li>
-           </ul>
-        </div>
-      </div>
-
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-            <i class="fab fa-twitter"></i>
-          </a>
-        <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        <a href="#" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-      </div>
-
-    </div>
-  </section>
-
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
-
+    </section>
+    <!-- Contact Section End-->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".chosen-select").chosen();
+        });
+    </script>
 </body>
-
 </html>
